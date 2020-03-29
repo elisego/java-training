@@ -149,7 +149,7 @@ public class StringTraining {
      */
     public static String replaceString(String string, String search, String replace) {
 
-        return string.replace(search, replace);
+        return String.replace(search, replace);
     }
 
     /**
@@ -160,7 +160,7 @@ public class StringTraining {
     public static String[] split(String string, String delimiter) {
         // https://howtodoinjava.com/java/string/java-string-split-example/
 
-        return string.split(delimiter);
+        return String.split(delimiter);
     }
 
     /**
